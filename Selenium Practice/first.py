@@ -15,4 +15,7 @@ driver = webdriver.Chrome(
     executable_path="F:\Automation Testing\selenium\chromedriver_win32\chromedriver.exe")  # chrome() class
 # chrome drive path: "F:\Automation Testing\selenium\chromedriver_win32\chromedriver.exe"
 driver.get('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
-time.sleep(1000)
+
+driver.find_element_by_name("username").send_keys("Admin")
+
+#time.sleep(1000)
