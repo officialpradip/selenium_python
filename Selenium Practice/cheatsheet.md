@@ -18,4 +18,8 @@
 ## Customized Locators
 
 ->CSS Selector<br/>
+---1. tag and id<br/>
+---2. tag and class<br/>
+---3. tag and attribute<br/>
+---4. tag and class attribute<br/>
 ->XPath<br/>
