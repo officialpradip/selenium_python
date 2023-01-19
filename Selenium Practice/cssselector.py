@@ -12,3 +12,4 @@ demo.get("https://www.facebook.com/")
 demo.find_element(By.CSS_SELECTOR, "input#email").send_keys("demo@gmail.com")
 demo.find_element(
     By.CSS_SELECTOR, '.inputtext._55r1._6luy._9npi').send_keys("demo")
+demo.find_element(By.CSS_SELECTOR, "[type='submit']").click()
