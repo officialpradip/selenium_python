@@ -22,3 +22,8 @@ print("++++++++", parent)
 child = demo.find_elements(
     By.XPATH, "//a[normalize-space()='Prime Fresh']/ancestor::tr/child::td")
 print("++++++++", len(child))
+
+# ancestor
+ancestor = demo.find_element(
+    By.XPATH, "//a[normalize-space()='Prime Fresh']/ancestor::tr").text
+print("++++++++", ancestor)
