@@ -40,3 +40,14 @@
 ---3. contains() <br>
 ---4. starts-with() <br>
 ---5. text() <br>
+
+-> XPath Axes<br/>
+---1. self <br>
+---2. parent <br>
+---3. child <br>
+---4. ancestor <br>
+---5. descendant <br>
+---6. following <br>
+---7. following-sibling <br>
+---4. preceding <br>
+---5. preceding-sibling <br>
