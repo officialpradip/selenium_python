@@ -34,14 +34,16 @@
 -> Which XPath is preferd?<br/>
 --- Relative. Absolute xpath is unstable.<br/>
 
--> XPath Options<br/>
+### XPath Options<br/>
+
 ---1. and <br>
 ---2. or <br>
 ---3. contains() <br>
 ---4. starts-with() <br>
 ---5. text() <br>
 
--> XPath Axes<br/>
+### XPath Axes<br/>
+
 ---1. self <br>
 ---2. parent <br>
 ---3. child <br>
@@ -51,3 +53,11 @@
 ---7. following-sibling(nodes after following in right side)<br>
 ---4. preceding(nodes after following in left side) <br>
 ---5. preceding-sibling (nodes after preceding nodes)<br>
+
+### WebDriver Commands
+
+---1. get commands
+---2. conditional commands
+---3. broswer commands
+---4. navigational commands
+---5. wait commands
