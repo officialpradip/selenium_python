@@ -31,3 +31,8 @@ print("++++++++", ancestor)
 decentent = demo.find_elements(
     By.XPATH, "//a[normalize-space()='Prime Fresh']/ancestor::tr/descendant::*")
 print("++++++++", len(decentent))
+
+# following
+following = demo.find_elements(
+    By.XPATH, "//a[normalize-space()='Prime Fresh']/ancestor::tr/following::*")
+print("++++++++", len(following))
