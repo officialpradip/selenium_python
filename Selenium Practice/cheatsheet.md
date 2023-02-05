@@ -46,8 +46,8 @@
 ---2. parent <br>
 ---3. child <br>
 ---4. ancestor <br>
----5. descendant <br>
----6. following <br>
----7. following-sibling <br>
----4. preceding <br>
----5. preceding-sibling <br>
+---5. descendant(grand-child) <br>
+---6. following (nodes above self)<br>
+---7. following-sibling(nodes after following in right side)<br>
+---4. preceding(nodes after following in left side) <br>
+---5. preceding-sibling (nodes after preceding nodes)<br>
