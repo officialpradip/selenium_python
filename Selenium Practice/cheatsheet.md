@@ -22,4 +22,7 @@
 ---2. tag and class<br/>
 ---3. tag and attribute<br/>
 ---4. tag and class attribute<br/>
+
 ->XPath<br/>
+---1. Absolute/ Full Xpath<br/>
+---2. Relative/ Xpath<br/>
