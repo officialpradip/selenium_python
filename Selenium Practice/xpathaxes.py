@@ -12,3 +12,13 @@ demo.get("https://money.rediff.com/gainers/bse/daily/groupall")
 details = demo.find_element(
     By.XPATH, "//a[normalize-space()='Prime Fresh']/self::a").text
 print("++++++++", details)
+
+# parent
+parent = demo.find_element(
+    By.XPATH, "//a[normalize-space()='Prime Fresh']/parent::td").text
+print("++++++++", parent)
+
+# child
+child = demo.find_elements(
+    By.XPATH, "//a[normalize-space()='Prime Fresh']/ancestor::tr/child::td")
+print("++++++++", len(child))
