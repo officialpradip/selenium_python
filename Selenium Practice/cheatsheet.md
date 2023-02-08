@@ -64,6 +64,17 @@
 
 ### Application Commands
 
----1. title
----2. curent_url
----3. page_source
+---
+
+--- get() #opening the application url
+---1. title # capture the title of current page
+---2. curent_url # capture the url of current page
+---3. page_source # capture the source code of current page
+
+### Conditionals Commands
+
+---
+
+1. is_displayed()
+2. is_enabled()
+3. is_selected()
