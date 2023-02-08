@@ -61,3 +61,9 @@
 ---3. broswer commands
 ---4. navigational commands
 ---5. wait commands
+
+### Application Commands
+
+---1. title
+---2. curent_url
+---3. page_source
