@@ -8,5 +8,7 @@ demo = webdriver.Chrome(service=obj_serv)
 demo.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
 # application command
 print("Title of Site is:", demo.title)
+demo.quit()
 print("Url of Site is:", demo.current_url)
 print("Page Source of site is:", demo.page_source)
+demo.close()

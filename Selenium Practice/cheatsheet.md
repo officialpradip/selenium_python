@@ -78,3 +78,10 @@
 1. is_displayed()
 2. is_enabled()
 3. is_selected()
+
+### Broswer Commands
+
+---
+
+1. close()
+2. quit()
