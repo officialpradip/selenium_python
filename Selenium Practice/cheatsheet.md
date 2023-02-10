@@ -85,3 +85,5 @@
 
 1. close()
 2. quit()
+
+### Navigational Commands
