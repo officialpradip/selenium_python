@@ -87,3 +87,7 @@
 2. quit()
 
 ### Navigational Commands
+
+1. back()
+2. forward()
+3. refresh()
