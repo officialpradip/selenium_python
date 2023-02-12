@@ -17,5 +17,11 @@ demo.get("https://itera-qa.azurewebsites.net/home/automation")
 all = demo.find_elements(
     By.XPATH, "//input[@type='checkbox' and contains(@id,'day')]")
 print(len(all))
-for i in range(len(all)):
-    all[i].click()
+# for i in range(len(all)):
+#     all[i].click()
+
+# select specific checkboxes by choice
+for boxes in all:
+    check = boxes.get_attribute('id')
+    if check == "saturday" or check == "tuesday":
+        boxes.click()
