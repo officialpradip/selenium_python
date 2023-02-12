@@ -17,16 +17,30 @@ demo.get("https://itera-qa.azurewebsites.net/home/automation")
 all = demo.find_elements(
     By.XPATH, "//input[@type='checkbox' and contains(@id,'day')]")
 print(len(all))
-# for i in range(len(all)):
-#     all[i].click()
+for i in range(len(all)):
+    all[i].click()
 
-# select specific checkboxes by choice
-# for boxes in all:
-#     check = boxes.get_attribute('id')
-#     if check == "saturday" or check == "tuesday":
-#         boxes.click()
+# 1 select specific checkboxes by choice
+for boxes in all:
+    check = boxes.get_attribute('id')
+    if check == "saturday" or check == "tuesday":
+        boxes.click()
 
 
-# selecting last check boxes
+# 2 selecting last check boxes
 for i in range(len(all)-2, len(all)):
     all[i].click()
+
+
+# 3 selecting first two elements
+for i in range(len(all)):
+    if i > 2:
+        all[i].click()
+
+# selecting all
+for select in all:
+    select.click()
+# 4 clearning all the checkboxes
+for i in all:
+    if i.is_selected():
+        i.click()
