@@ -6,12 +6,13 @@ import time
 obj_serv = Service(
     "F:\Automation Testing\selenium\chromedriver_win32\chromedriver.exe")
 demo = webdriver.Chrome(service=obj_serv)
+demo.implicitly_wait(10)  # 10 seconds implicit wait
 demo.get("https://www.google.com")
 searchbox = demo.find_element(By.NAME, "q")
 searchbox.send_keys("selenium")
 searchbox.submit()
 
-time.sleep(5)
+
 search = demo.find_element(
     By.XPATH, '//div[text()="Selenium"]')
 search.click()
