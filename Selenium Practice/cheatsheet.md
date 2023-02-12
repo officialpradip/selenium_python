@@ -96,3 +96,9 @@
 
 1. implicit wait
 2. explicit wait
+
+### Links
+
+1. External Links
+2. Internal Links
+3. Broken Links
