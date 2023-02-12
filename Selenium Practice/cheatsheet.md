@@ -91,3 +91,8 @@
 1. back()
 2. forward()
 3. refresh()
+
+### Wait Commands
+
+1. implicit wait
+2. explicit wait
