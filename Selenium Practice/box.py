@@ -21,7 +21,12 @@ print(len(all))
 #     all[i].click()
 
 # select specific checkboxes by choice
-for boxes in all:
-    check = boxes.get_attribute('id')
-    if check == "saturday" or check == "tuesday":
-        boxes.click()
+# for boxes in all:
+#     check = boxes.get_attribute('id')
+#     if check == "saturday" or check == "tuesday":
+#         boxes.click()
+
+
+# selecting last check boxes
+for i in range(len(all)-2, len(all)):
+    all[i].click()
