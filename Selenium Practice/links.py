@@ -15,3 +15,13 @@ demo.maximize_window()
 
 # link click
 demo.find_element(By.LINK_TEXT, "Digital downloads").click()
+
+# find number of links
+links = demo.find_elements(By.TAG_NAME, 'a')
+print("total links", len(links))
+
+# print all links
+for link in links:
+    print("second link is::", link.text)
+
+# broken links
