@@ -23,5 +23,3 @@ print("total links", len(links))
 # print all links
 for link in links:
     print("second link is::", link.text)
-
-# broken links
