@@ -12,3 +12,6 @@ demo = webdriver.Chrome(service=servic_obj, options=options)
 
 demo.get("https://demo.nopcommerce.com/")
 demo.maximize_window()
+
+# link click
+demo.find_element(By.LINK_TEXT, "Digital downloads").click()
