@@ -15,3 +15,11 @@ demo.get('https://demo.nopcommerce.com/')
 currency = demo.find_element(By.XPATH, "//select[@id='customerCurrency']")
 dollor = Select(currency)
 dollor.select_by_visible_text("Euro")
+
+
+all = dollor.options
+print(len(all))
+
+# print all options
+for a in all:
+    print(a.text)
