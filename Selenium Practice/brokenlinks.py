@@ -22,3 +22,6 @@ for l in links:
     if req.status_code >= 400:
         print(url + " broken link")
         count = +1
+    else:
+        print(url + " valid links link")
+print("total links::::::", count)
