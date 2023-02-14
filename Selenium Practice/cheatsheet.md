@@ -102,3 +102,10 @@
 1. External Links
 2. Internal Links
 3. Broken Links
+
+### Alerts
+
+a=driver.switch_to.alert
+print(a.text)
+driver.accept()
+driver.dismiss()
