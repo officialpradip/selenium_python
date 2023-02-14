@@ -19,4 +19,5 @@ demo.find_element(
 alertWindows = demo.switch_to.alert
 print(alertWindows.text)
 alertWindows.send_keys("Hello")
-alertWindows.accept()  # close alert
+# alertWindows.accept()  # close alert
+alertWindows.dismiss()  # click cancel button
