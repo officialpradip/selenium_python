@@ -4,4 +4,5 @@ from selenium.webdriver.common.by import By
 
 ser_obj = Service("F:\Automation Testing\selenium\chromedriver.exe")
 demo = webdriver.Chrome(service=ser_obj)
-website = demo.get("https://the-internet.herokuapp.com/basic_auth")
+website = demo.get("https://admin:admin@the-internet.herokuapp.com/basic_auth")
+# syntax:::https://admin:admin@the-internet.herokuapp.com/basic_auth
