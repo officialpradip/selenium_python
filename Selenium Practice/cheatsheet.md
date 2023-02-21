@@ -109,3 +109,5 @@ a=driver.switch_to.alert
 print(a.text)
 driver.accept()
 driver.dismiss()
+
+### Authentication Alerts
