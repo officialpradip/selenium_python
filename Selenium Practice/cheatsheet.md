@@ -118,3 +118,11 @@ a.switch_to.frame(name of the frame)
 a.switch_to.frame(id of the frame)
 a.switch_to.frame(webelement)
 a.switch_to.frame(0)
+
+# broswer windows
+
+a.switch_to.window(windowId)
+
+current_window_handle #return windowID of single broswer windows
+
+window_handle # return windowIds of multiple browser windows
