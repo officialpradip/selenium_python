@@ -111,3 +111,10 @@ driver.accept()
 driver.dismiss()
 
 ### Authentication Alerts
+
+### Frames
+
+a.switch_to.frame(name of the frame)
+a.switch_to.frame(id of the frame)
+a.switch_to.frame(webelement)
+a.switch_to.frame(0)
